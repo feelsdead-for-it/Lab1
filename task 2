@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+double d,L;
+double p=3.14;
+cin >> d;
+L=d*p;
+cout <<"L="<<L<< endl;
+
+system("pause");
+
+  	return 0;
+}
