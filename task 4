@@ -9,9 +9,9 @@ int main()
 	cin >>a>>b;
 	if (a != 0 && b != 0) 
 	{
-	    S= a + b;
-	    Dif= a - b;
-	    M= a * b;	  
+	    S= (a * a) + (b * b);
+	    Dif= (a * a) - (b * b);
+	    M= (a * a) * (b * b);	  
 	    Div= (a * a) / (b * b);
 	   cout <<"S= "<<S<<" Dif= "<<Dif<<" M= "<<M<<" Div= "<<Div << ends;
 	}
